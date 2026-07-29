@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # DEIN DISCORD WEBHOOK
-WEBHOOK_URL = "https://discord.com/api/webhooks/1529571642022560025/mxoBq18yGw7Vwp1Mu2ZJHsApOQSEHAKfmTUEMsBQgqgKk-fVN9fAJ7-3AKS3lBVXS5Ex"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1529571642022560025/mxoBq18yGw7Vwp1Mu2ZJHsApOQsEHAKfmTUEMsBQgqgKk-fVN9fAJ7-3AKS3lBVXS5Ex"
 
 @app.route('/preview')
 def preview():

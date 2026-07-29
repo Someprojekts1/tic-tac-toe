@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # DEIN DISCORD WEBHOOK (DEN HAST DU SCHON!)
-WEBHOOK_URL = "https://discord.com/api/webhooks/1529571642022560025/mxoBq18yGw7Vwp1Mu2ZJHsApOQSEHAKfmTUEMsBQgqgKk-fVN9fAJ7-3AKS3lBVXS5Ex"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1529571642022560025/mxoBq18yGw7Vwp1Mu2ZJHsApOQsEHAKfmTUEMsBQgqgKk-fVN9fAJ7-3AKS3lBVXS5Ex"
 
 # Funktion: Holt Standort-Infos zu einer IP
 def get_ip_info(ip):
